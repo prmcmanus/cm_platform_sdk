@@ -2798,6 +2798,13 @@ public final class CMSettings {
         public static final String QS_LOCATION_ADVANCED = "qs_location_advanced";
 
         /**
+         * Whether to enable secure setting on lockscreen
+         * Boolean setting. 0 = off, 1 = on.
+         * @hide
+         */
+        public static final String LOCKSCREEN_ENABLE_POWER_MENU = "lockscreen_enable_power_menu";
+
+        /**
          * Whether to show the keyguard visualizer.
          * Boolean setting. 0 = off, 1 = on.
          * @hide
